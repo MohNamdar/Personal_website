@@ -8,10 +8,11 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
-* {
+*:not(i) {
   /* Use the 'Vazirmatn' font for all text */
-  font-family: "Vazirmatn FD";
+  font-family: "Vazirmatn FD" !important;
 }
+
 :root {
   /**
    * colors
